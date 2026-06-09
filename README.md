@@ -1,11 +1,33 @@
-<div align="center">
+# Pulse
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Pulse is a real-time smart dashboard for monitoring local and remote sensors. 
 
-  <h1>Built with AI Studio</h2>
+**Features:**
+- Automatic Zero-Configuration Networking (NSD) for local sensor discovery
+- Deep styling with minimalistic "Dark Space" aesthetic
+- Offline fallback protection and instant manual connection overrides
+- High-visibility metrics dashboard tracking Temperature, Humidity, Pressure, CO2, Light Level, and system status
+- Real-time animation components, fluid transitions, and subtle haptic feedback
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Pulse seamlessly integrates directly with your hardware to provide lightning-fast, secure monitoring of your environment without relying on external cloud services or data harvesting.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Screenshots
 
-</div>
+*(Insert screenshots here)*
+
+## Architecture & Technologies
+
+- **Language**: Kotlin 100%
+- **UI Framework**: Jetpack Compose (Material 3)
+- **Architecture**: MVVM with Coroutines & StateFlow
+- **Networking**: Retrofit, OkHttp, Moshi
+- **Discovery**: Custom NSD implementation utilizing Android standard components
+- **CI/CD**: GitHub Actions
+
+## Installation
+
+You can download the latest release from the [Releases](https://github.com/repository/pulse/releases) pane, or build directly via Android Studio / Gradle:
+
+```bash
+./gradlew assembleDebug
+```

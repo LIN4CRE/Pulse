@@ -1,0 +1,6 @@
+{
+  "name": "Pulse",
+  "description": "Real-time dashboard discovering and displaying local sensor data via NSD.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
